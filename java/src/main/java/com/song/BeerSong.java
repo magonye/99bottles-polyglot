@@ -31,6 +31,10 @@ public class BeerSong {
     }
 
     public String singSong() {
-        return null;
+        String result = "";
+        for (int i = 99; i > -1; i--) {
+            result += sing(i, 1);
+        }
+        return result;
     }
 }
