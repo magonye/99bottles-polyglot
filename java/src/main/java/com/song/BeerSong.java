@@ -20,6 +20,12 @@ public class BeerSong {
         if (versesNumber == 2) {
             result += "98 bottles of beer on the wall, 98 bottles of beer.\n" + "Take one down and pass it around, 97 bottles of beer on the wall.\n\n";
         }
+        if (versesNumber == 3) {
+            result +="1 bottle of beer on the wall, 1 bottle of beer.\n" +
+                    "Take it down and pass it around, no more bottles of beer on the wall.\n\n" +
+                    "No more bottles of beer on the wall, no more bottles of beer.\n" +
+                    "Go to the store and buy some more, 99 bottles of beer on the wall.\n\n";
+        }
 
         return result;
     }
